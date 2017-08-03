@@ -1,5 +1,5 @@
 {
-  "name": "ithildin",
+  "name": "ithildin-ui",
   "version": "0.0.1",
   "description": "Ithildin is a Mithril.js UI component library.",
   "main": "src/index.js",
