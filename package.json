@@ -1,0 +1,23 @@
+{
+  "name": "ithildin",
+  "version": "0.0.1",
+  "description": "Ithildin is a Mithril.js UI component library.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack src/index.js bin/app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobering/ithildin.git"
+  },
+  "author": "Stefan Sobering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sobering/ithildin/issues"
+  },
+  "homepage": "https://github.com/sobering/ithildin#readme",
+  "dependencies": {
+    "mithril": "^1.1.3",
+    "webpack": "^3.4.1"
+  }
+}
