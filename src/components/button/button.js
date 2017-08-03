@@ -1,11 +1,11 @@
-var m = require('mithril');
+import m from 'mithril';
 
-var Button = {
-  view: function(vnode) {
+const Button = {
+  view(vnode) {
     return m('button', {
-      onclick: vnode.attrs.events.onclick
+      onclick: vnode.attrs.events.onclick,
     }, vnode.attrs.label);
-  }
+  },
 };
 
-module.exports = Button;
+export default Button;

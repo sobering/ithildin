@@ -1,20 +1,20 @@
-var m = require('mithril');
-var Button = require('./components/button/button');
+import m from 'mithril';
+import Button from './components/button/button';
 
-var StyleGuide = {
-  view: function() {
+const StyleGuide = {
+  view() {
     return m('.style-guide', [
       m(Button, {
         label: 'Press me',
         events: {
-          onclick: function() {
+          onclick() {
             alert('I got pressed');
           },
         },
       }),
     ]);
-  }
+  },
 };
 
-var app = document.querySelector('.app');
+const app = document.querySelector('.app');
 m.mount(app, StyleGuide);
